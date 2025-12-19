@@ -9,11 +9,13 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
+    overflow-x: hidden;
 }
 
 body {
     background-color: #212842;
     color: #f0e7d5;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -79,7 +81,8 @@ body {
 }
 
 .home_image_container img {
-    width: 460px;
+    width: 560px;
+    margin-left: 20px;
     margin-top: 60px;
     transition: transform 0.4s ease;
 }
@@ -119,12 +122,14 @@ body {
     left: -100px;
     opacity: 0.35;
     z-index: 0;
+    overflow: hidden;
 }
 
 .text_home {
-    font-size: 2.2rem;
-    color: #ffd60a;
+    font-size: 44px;
+    color: rgb(0, 110, 255);
     line-height: 1.3;
+    
 }
 
 .tagline {
