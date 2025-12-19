@@ -62,7 +62,7 @@ body {
     transition: width 1s ease;
 }
 
-/* 🏠 Home Section */
+/* Home Section */
 .container_home {
     height: 100vh;
     background-color: #fffdf5;
@@ -108,6 +108,9 @@ body {
     right: -120px;
     opacity: 0.6;
     z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+    will-change: transform;
 }
 
 /* Lingkaran biru */
@@ -123,6 +126,8 @@ body {
     opacity: 0.35;
     z-index: 0;
     overflow: hidden;
+    pointer-events: none;
+    will-change: transform;
 }
 
 .text_home {
@@ -170,16 +175,16 @@ body {
     min-height: 100vh;
     background-color: #fffdf5;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 80px;
     overflow-x: hidden;
 }
 
 .img_about {
-    width: 480px;
+    width: 900px;
     max-width: 100%;
     height: auto;
+    left: 0;
+    margin-left: 0;
+    position: start;
 }
 
 .container_about {
@@ -189,6 +194,7 @@ body {
     gap: 80px;
     max-width: 1200px;
     width: 100%;
+    left: 0;
 }
 
 .sub-title {
@@ -202,6 +208,7 @@ body {
     font-size: 20px;
     line-height: 1.6;
     color: #0f1424;
+    max-width: 1200px;
 }
 
 /* jenis */
