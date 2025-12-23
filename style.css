@@ -191,7 +191,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 80px 4px;
     max-width: 2000px;
     width: 100%;
     left: 0;
@@ -202,7 +202,7 @@ body {
 .sub-title {
     font-size: 50px;
     color: #ffd60a;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     letter-spacing: 1px;
 }
 
@@ -210,10 +210,11 @@ body {
     font-size: 20px;
     line-height: 1.6;
     color: #0f1424;
-    max-width: 1200px;
+    max-width: 1100px;
+    margin-bottom: 20px;
 }
 
-.container_text_about{
+.container_text_about {
     flex: 1 1 50%;
     max-width: 55%;
 }
