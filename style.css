@@ -231,14 +231,14 @@ body {
     color: black;
 }
 
-.card-list .card-item{
+.card-list .card-item {
     list-style: none;
 }
 
-.card-list .card-item .card-value{
+.card-list .card-item .card-value {
     width: 400px;
     display: block;
-    background: #fff2bf;
+    background: #fff6d8;
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
@@ -246,7 +246,7 @@ body {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
 }
 
-.card-list .card-item .card-img{
+.card-list .card-item .card-img {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -254,7 +254,7 @@ body {
     border: #dfdfdf solid 1px;
 }
 
-.card-list .card-value .badge{
+.card-list .card-value .badge {
     color: orange;
     background: #ffd993;
     padding: 8px 16px;
@@ -265,12 +265,12 @@ body {
     border-radius: 50px;
 }
 
-.card-list .card-value .title-card{
+.card-list .card-value .title-card {
     font-size: 1.19 rem;
     font-weight: 600;
 }
 
-.card-list .card-value .desc{
+.card-list .card-value .desc {
     font-size: 15px;
     margin: 10px 0 5px;
 }
@@ -283,7 +283,10 @@ body {
     padding: 0;
 }
 
-
+.badge-wrap{
+    display: flex;
+    gap: 8px;
+}
 
 /* shoes care */
 /* Bagian Style untuk tiap jenis sepatu */
