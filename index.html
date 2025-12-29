@@ -12,11 +12,17 @@
                 <i>Shoes<span style="color: rgb(0, 110, 255)">soe</span></i>
             </div>
             <ul class="nav-ul">
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#jenis">Jenis</a></li>
-                <li><a href="#care">Tips perawatan</a></li>
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#jenis" class="nav-link">Jenis</a></li>
+                <li><a href="#care" class="nav-link">Tips perawatan</a></li>
             </ul>
+            <button
+                class="nav-button"
+                onclick="window.location.href='form.php'"
+            >
+                Rekomendasi
+            </button>
         </nav>
         <section id="home">
             <div class="container_home">
@@ -66,9 +72,36 @@
         </section>
         <!-- jenis -->
         <section id="jenis">
+            <div class="sub-titlej">
+                <h2><u> Jenis Sepatu </u></h2>
+                <p>
+                    Berikut adalah daftar beberapa
+                    <span style="color: #ff8c00"><b> jenis sepatu </b></span>
+                    yang dapat kamu sesuaikan dengan kegiatanmuuu..
+                </p>
+            </div>
             <div class="container_card">
                 <div class="card-wrap">
                     <ul class="card-list">
+                        <li class="card-item">
+                            <div class="card-value">
+                                <img
+                                    src="./img/run_shoes.png"
+                                    alt=""
+                                    class="card-img"
+                                />
+                                <div class="badge-wrap">
+                                    <p class="badge">Sport</p>
+                                    <p class="badge">Nyaman</p>
+                                    <p class="badge">Unisex</p>
+                                </div>
+                                <h2 class="title-card">Sepatu casual</h2>
+                                <p class="desc">
+                                    Dirancang untuk aktivitas lari, ringan, dan
+                                    nyaman di kaki.
+                                </p>
+                            </div>
+                        </li>
                         <li class="card-item">
                             <div class="card-value">
                                 <img
@@ -78,7 +111,27 @@
                                 />
                                 <div class="badge-wrap">
                                     <p class="badge">Santai</p>
+                                    <p class="badge">Kegiatan sehari-hari</p>
+                                    <p class="badge">Unisex</p>
+                                </div>
+                                <h2 class="title-card">Sepatu Kasual</h2>
+                                <p class="desc">
+                                    Bersifat kasual dan cocok digunakan untuk
+                                    kegiatan sehari-hari.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="card-item">
+                            <div class="card-value">
+                                <img
+                                    src="./img/slip-on.png"
+                                    alt=""
+                                    class="card-img"
+                                />
+                                <div class="badge-wrap">
                                     <p class="badge">Santai</p>
+                                    <p class="badge">Kegiatan sehari-hari</p>
+                                    <p class="badge">Unisex</p>
                                 </div>
                                 <h2 class="title-card">Sepatu casual</h2>
                                 <p class="desc">
@@ -90,11 +143,14 @@
                         <li class="card-item">
                             <div class="card-value">
                                 <img
-                                    src="./img/casual_shoes.png"
+                                    src="./img/heels.png"
                                     alt=""
                                     class="card-img"
                                 />
-                                <p class="badge">Santai</p>
+                                <div class="badge-wrap">
+                                    <p class="badge">Formal</p>
+                                    <p class="badge">Cewe</p>
+                                </div>
                                 <h2 class="title-card">Sepatu casual</h2>
                                 <p class="desc">
                                     Bersifat kasual dan cocok digunakan untuk
@@ -105,45 +161,38 @@
                         <li class="card-item">
                             <div class="card-value">
                                 <img
-                                    src="./img/casual_shoes.png"
+                                    src="./img/booths_shooes.png"
                                     alt=""
                                     class="card-img"
                                 />
-                                <p class="badge">Santai</p>
-                                <h2 class="title-card">Sepatu casual</h2>
+                                <div class="badge-wrap">
+                                    <p class="badge">Acara Formal</p>
+                                    <p class="badge">Profesional</p>
+                                    <p class="badge">Cowo</p>
+                                </div>
+                                <h2 class="title-card">Sepatu Booths</h2>
                                 <p class="desc">
-                                    Bersifat kasual dan cocok digunakan untuk
-                                    kegiatan sehari-hari.
+                                    Didesain elegan untuk acara resmi atau
+                                    pertemuan profesional.
                                 </p>
                             </div>
                         </li>
                         <li class="card-item">
                             <div class="card-value">
                                 <img
-                                    src="./img/casual_shoes.png"
+                                    src="./img/formal_shoes.png"
                                     alt=""
                                     class="card-img"
                                 />
-                                <p class="badge">Santai</p>
-                                <h2 class="title-card">Sepatu casual</h2>
+                                <div class="badge-wrap">
+                                    <p class="badge">Acara Formal</p>
+                                    <p class="badge">Profesional</p>
+                                    <p class="badge">Cowo</p>
+                                </div>
+                                <h2 class="title-card">Sepatu Formal</h2>
                                 <p class="desc">
-                                    Bersifat kasual dan cocok digunakan untuk
-                                    kegiatan sehari-hari.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="card-item">
-                            <div class="card-value">
-                                <img
-                                    src="./img/casual_shoes.png"
-                                    alt=""
-                                    class="card-img"
-                                />
-                                <p class="badge">Santai</p>
-                                <h2 class="title-card">Sepatu casual</h2>
-                                <p class="desc">
-                                    Bersifat kasual dan cocok digunakan untuk
-                                    kegiatan sehari-hari.
+                                    Didesain elegan untuk acara resmi atau
+                                    pertemuan profesional.
                                 </p>
                             </div>
                         </li>
@@ -154,78 +203,360 @@
 
         <!-- Merawat sepatu -->
         <section id="care">
-            <h1 class="title-care">
-                Cara Merawat Sepatu Berdasarkan Jenis Bahannya
-            </h1>
+            <div class="sub-titlec">
+                <h2><u> Perawatan Sepatu </u></h2>
+                <p>
+                    Berikut adalah daftar beberapa cara
+                    <span style="color: #ff8c00"
+                        ><b> perawatan sepatu </b></span
+                    >
+                    sesuai bahan sepatu
+                </p>
+            </div>
 
-            <!-- Sepatu Suede -->
-            <section class="shoe-section">
-                <h2>Sepatu Suede</h2>
-                <img src="./img/suede.png" alt="Sepatu Suede" />
-                <ul>
-                    <li>
-                        Gunakan sikat berbulu lembut untuk membersihkan debu.
-                    </li>
-                    <li>Hindari mencuci langsung dengan air.</li>
-                    <li>Semprotkan pelindung anti air khusus suede.</li>
-                    <li>Simpan di tempat kering dan sejuk.</li>
-                </ul>
-            </section>
+            <div class="container_card_c">
+                <div class="card-wrap_c">
+                    <ul class="card-list_c">
+                        <li class="card-item_c">
+                            <div class="card-value_c">
+                                <img
+                                    src="./img/suede_shoes.png"
+                                    alt=""
+                                    class="card-img_c"
+                                />
+                                <h2 class="title-card_c">Sepatu Suede</h2>
+                                <p class="desc_c">
+                                    Jenis bahan ini dari kulit bertekstur halus
+                                    dan lembut dengan permukaan berbulu tipis.
+                                </p>
+                                <button
+                                    class="button-c"
+                                    onclick="openModal('modal1')"
+                                >
+                                    Read more
+                                </button>
+                            </div>
+                        </li>
 
-            <hr />
+                        <li class="card-item_c">
+                            <div class="card-value_c">
+                                <img
+                                    src="./img/sinte.png"
+                                    alt=""
+                                    class="card-img_c"
+                                />
+                                <h2 class="title-card_c">
+                                    Sepatu Kulit sintetis
+                                </h2>
+                                <p class="desc_c">
+                                    Jenis bahan ini seperti kulit asli yang
+                                    tampil rapi dan mudah dirawat.
+                                </p>
+                                <button
+                                    class="button-c"
+                                    onclick="openModal('modal2')"
+                                >
+                                    Read more
+                                </button>
+                            </div>
+                        </li>
 
-            <!-- Sepatu Kulit -->
-            <section class="shoe-section">
-                <h2>Sepatu Kulit</h2>
-                <img src="./img/formal_shoes.png" alt="Sepatu Kulit" />
-                <ul>
-                    <li>Bersihkan dengan kain lembap setelah digunakan.</li>
-                    <li>Gunakan lotion atau cream khusus kulit.</li>
-                    <li>Jauhkan dari panas langsung agar tidak retak.</li>
-                    <li>Simpan di tempat kering dan teduh.</li>
-                </ul>
-            </section>
+                        <li class="card-item_c">
+                            <div class="card-value_c">
+                                <img
+                                    src="./img/formal_shoes.png"
+                                    alt=""
+                                    class="card-img_c"
+                                />
+                                <h2 class="title-card_c">Sepatu Kulit</h2>
+                                <p class="desc_c">
+                                    Jenis bahan ini adalah kulit asli yang kuat,
+                                    nyaman, dan memberi kesan elegan.
+                                </p>
+                                <button
+                                    class="button-c"
+                                    onclick="openModal('modal3')"
+                                >
+                                    Read more
+                                </button>
+                            </div>
+                        </li>
 
-            <hr />
+                        <li class="card-item_c">
+                            <div class="card-value_c">
+                                <img
+                                    src="./img/mesh.png"
+                                    alt=""
+                                    class="card-img_c"
+                                />
+                                <h2 class="title-card_c">Sepatu Mesh</h2>
+                                <p class="desc_c">
+                                    Jenis bahan ini adalah kain berpori yang
+                                    ringan dan memiliki sirkulasi udara baik.
+                                </p>
+                                <button
+                                    class="button-c"
+                                    onclick="openModal('modal4')"
+                                >
+                                    Read more
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-            <!-- Sepatu Kulit Sintetis -->
-            <section class="shoe-section">
-                <h2>Sepatu kulit sintetis</h2>
-                <img src="./img/sinte.png" alt="Sepatu Kulit" />
-                <ul>
-                    <li>Bersihkan dengan kain lembap, hindari direndam air.</li>
-                    <li>
-                        Gunakan sabun lembut atau sabun bayi untuk noda ringan.
-                    </li>
-                    <li>
-                        Keringkan di tempat teduh, jangan di bawah matahari
-                        langsung.
-                    </li>
-                    <li>
-                        Opsional: oles sedikit lotion khusus bahan sintetis agar
-                        lentur.
-                    </li>
-                </ul>
-            </section>
-            <hr />
+            <div class="modal" id="modal1" onclick="closeModalOnOutside(event)">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Perawatan Sepatu Suede</h2>
+                        <button class="close-btn" onclick="closeModal()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img
+                            src="./img/suede_shoes.png"
+                            alt="Sepatu Suede"
+                            class="modal-hero-img"
+                        />
+                        <p class="modal-desc-text">
+                            Sepatu suede memiliki tekstur yang unik namun rentan
+                            terhadap air dan debu. Perawatan yang tepat akan
+                            menjaga kelembutan bulunya dan mencegah kebotakan
+                            pada tekstur.
+                        </p>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">1</span>Sikat Khusus
+                            </h3>
+                            <p>
+                                Gunakan sikat khusus suede atau sikat gigi
+                                halus. Sikat satu arah untuk menghilangkan debu
+                                agar tekstur bulu tetap rapi dan tidak rusak.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">2</span>Hindari Air
+                            </h3>
+                            <p>
+                                Suede sangat sensitif terhadap air. Jika terkena
+                                noda, jangan dicuci basah. Gunakan penghapus
+                                khusus suede (suede eraser) atau cairan
+                                pembersih khusus suede.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">3</span>Spray
+                                Pelindung
+                            </h3>
+                            <p>
+                                Semprotkan 'water repellent spray' sebelum
+                                digunakan untuk melindungi sepatu dari cipratan
+                                air dan kotoran.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <!-- Sepatu mesh -->
-            <section class="shoe-section">
-                <h2>Sepatu Mesh</h2>
-                <img src="./img/mesh.png" alt="Sepatu Mesh" />
-                <ul>
-                    <li>
-                        Sikat lembut dengan sabun khusus sepatu atau sabun cair
-                        lembut.
-                    </li>
-                    <li>Lap perlahan tanpa direndam, hindari tekanan keras.</li>
-                    <li>Keringkan di tempat teduh dan berangin.</li>
-                    <li>
-                        Isi bagian dalam sepatu dengan tisu atau koran agar
-                        cepat kering.
-                    </li>
-                </ul>
-            </section>
+            <div class="modal" id="modal2" onclick="closeModalOnOutside(event)">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Perawatan Kulit Sintetis</h2>
+                        <button class="close-btn" onclick="closeModal()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img
+                            src="./img/sinte.png"
+                            alt="Sepatu Sintetis"
+                            class="modal-hero-img"
+                        />
+                        <p class="modal-desc-text">
+                            Sepatu berbahan kulit sintetis lebih tahan air dan
+                            mudah dibersihkan dibanding kulit asli, namun
+                            permukaannya bisa mengelupas (peeling) jika tidak
+                            dirawat dengan benar.
+                        </p>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">1</span>Lap Bersih
+                            </h3>
+                            <p>
+                                Cukup gunakan kain lap basah (microfiber) untuk
+                                membersihkan debu harian. Jika ada noda
+                                membandel, gunakan sedikit sabun bayi yang
+                                lembut.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">2</span>Hindari Panas
+                            </h3>
+                            <p>
+                                Jauhkan dari sinar matahari langsung atau
+                                pengering rambut saat mengeringkan. Panas
+                                berlebih bisa membuat lapisan plastik pada kulit
+                                sintetis retak dan mengelupas.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">3</span>Pelembab
+                                Ringan
+                            </h3>
+                            <p>
+                                Gunakan baby oil atau lotion ringan sesekali
+                                untuk menjaga kelenturan bahan, tetapi hindari
+                                semir sepatu keras yang biasa dipakai untuk
+                                kulit asli.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3" onclick="closeModalOnOutside(event)">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Perawatan Sepatu Kulit Asli</h2>
+                        <button class="close-btn" onclick="closeModal()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img
+                            src="./img/formal_shoes.png"
+                            alt="Sepatu Kulit"
+                            class="modal-hero-img"
+                        />
+                        <p class="modal-desc-text">
+                            Sepatu kulit asli (leather) adalah investasi jangka
+                            panjang. Bahan ini membutuhkan 'makanan' atau
+                            kelembaban agar tidak kering, pecah-pecah, dan tetap
+                            terlihat mengkilap elegan.
+                        </p>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">1</span>Semir Rutin
+                            </h3>
+                            <p>
+                                Gunakan semir sepatu (polish) atau leather
+                                conditioner secara berkala. Ini berfungsi
+                                memberi nutrisi pada kulit agar tetap lentur dan
+                                mengkilap.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">2</span>Simpan dengan
+                                Shoe Tree
+                            </h3>
+                            <p>
+                                Kulit asli mudah berubah bentuk. Gunakan
+                                penyangga sepatu (shoe tree) saat disimpan untuk
+                                mencegah timbulnya kerutan permanen pada bagian
+                                depan sepatu.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">3</span>Istirahatkan
+                                Sepatu
+                            </h3>
+                            <p>
+                                Jangan gunakan sepatu kulit yang sama setiap
+                                hari berturut-turut. Berikan waktu 24 jam agar
+                                kelembaban keringat hilang secara alami sebelum
+                                dipakai kembali.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal4" onclick="closeModalOnOutside(event)">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Perawatan Sepatu Mesh</h2>
+                        <button class="close-btn" onclick="closeModal()">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img
+                            src="./img/mesh.png"
+                            alt="Sepatu Mesh"
+                            class="modal-hero-img"
+                        />
+                        <p class="modal-desc-text">
+                            Bahan mesh memiliki banyak pori-pori untuk sirkulasi
+                            udara, namun pori-pori ini mudah menangkap debu dan
+                            lumpur. Pencucian rutin diperlukan untuk menjaga
+                            warnanya.
+                        </p>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">1</span>Lepas Tali &
+                                Insole
+                            </h3>
+                            <p>
+                                Sebelum mencuci, lepas tali sepatu dan alas
+                                dalam (insole). Cuci bagian-bagian ini secara
+                                terpisah agar bersih maksimal.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">2</span>Sikat Lembut
+                            </h3>
+                            <p>
+                                Campurkan deterjen cair ringan dengan air
+                                hangat. Gunakan sikat gigi bekas atau sikat
+                                nilon lembut. Jangan sikat terlalu keras agar
+                                jaring-jaring mesh tidak robek.
+                            </p>
+                        </div>
+                        <div class="care-step">
+                            <h3>
+                                <span class="step-number">3</span>Keringkan
+                                Alami
+                            </h3>
+                            <p>
+                                Isi dalam sepatu dengan kertas koran atau tisu
+                                untuk menyerap air dan menjaga bentuk.
+                                Angin-anginkan di tempat teduh, jangan di bawah
+                                terik matahari langsung agar lem tidak lepas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-recommendation">
+            <div class="cta-content-wrapper">
+                <div class="cta-text">
+                    <h2>👟 Masih Bingung Pilih Sepatu?</h2>
+                    <p>
+                        Jangan habiskan waktumu untuk scrolling tanpa arah.
+                        Jawab beberapa pertanyaan singkat, dan kami akan
+                        mencarikan pasangan sepatu terbaik untuk gayamu!
+                    </p>
+                </div>
+                <div class="cta-action">
+                    <button
+                        class="cta-btn"
+                        onclick="window.location.href='form.php'"
+                    >
+                        Coba Rekomendasi Sekarang →
+                    </button>
+                </div>
+            </div>
         </section>
 
         <footer class="footer">
@@ -249,5 +580,6 @@
                 © 2025 <span>Shoessoe</span> | Zovan Rizza
             </p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
